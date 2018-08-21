@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on rmenn - personal blog</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on rmenn - personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Tue, 14 Mar 2017 21:31:51 +0530</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bootkube</title>
+      <link>/blog/bootkube/</link>
+      <pubDate>Tue, 14 Mar 2017 21:31:51 +0530</pubDate>
+      
+      <guid>/blog/bootkube/</guid>
+      <description>I have been trying out bootkube for a while, its considered beta, i really love the concept and how it works.
+For those who have not heard about [bootkube][1], its a tool which is used to bootstrap self-hosted clusters. Self-hosted essentially means running kubernetes as a objects on the kubernetes cluster ( I can hear people close their tabs ), its just kubernetes running on kubernetes. You can take a look at this video where Aaron Levy explain what self-hosted is and how you can benefit from it.</description>
+    </item>
+    
+    <item>
+      <title>Here we Go</title>
+      <link>/blog/intro/</link>
+      <pubDate>Mon, 26 Sep 2016 15:29:15 +0530</pubDate>
+      
+      <guid>/blog/intro/</guid>
+      <description>Hello there, and welcome to my space. I&amp;rsquo;m hoping to drop a few pearls of wisdom here, but this is also a record of my misadventures and here&amp;rsquo;s hoping nobody repeats them!</description>
+    </item>
+    
+  </channel>
+</rss>
