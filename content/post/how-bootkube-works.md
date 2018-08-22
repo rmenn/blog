@@ -5,7 +5,7 @@ date = "2018-08-21"
 
  What is bootkube
 
-bootkube is a project in the kubernetes incubator which allows you to self host the control-plane of kubernetes. Simple, isnt it?
+bootkube is a project in the kubernetes incubator, primarly developed by coreos, which allows you to self host the control-plane of kubernetes. Simple, isnt it?
 
 What is self hosting
 
