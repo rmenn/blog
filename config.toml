@@ -1,4 +1,4 @@
-baseurl = "http://blog.rmenn.in"
+baseurl = "https://blog.rmenn.in"
 languageCode = "en"
 title = "rmenn - personal blog"
 theme = "hemingway"
