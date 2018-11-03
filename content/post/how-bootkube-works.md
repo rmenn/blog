@@ -121,7 +121,11 @@ Once again bootkube goes into a watch mode looking the following pods `apiserver
 There is one other component which i have mentioned but have not spoken about that is the pod-checkpointer, which would require its own post. In not so many words it creates a podSpec of the control-plane objects and stores them to disk. In the event where it detects that a component is no longer running it will move its required podSpec to the `pod-manifest-path` and ensure that the component begins to run. 
 
 
-Thanks to nemo, gappan, hahfyre and aaron for making sure i try and get it right
+
+
+
+
+Thanks to nemo, gappan, hahfyre and aaron for making sure i try and get this right
 
 Also, Happy Birthday Pa
 [1]: https://github.com/kubernetes-incubator/bootkube/blob/master/Documentation/disaster-recovery.md#bootkube-recover-usage
