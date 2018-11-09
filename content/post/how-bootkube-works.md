@@ -125,7 +125,8 @@ There is one other component which i have mentioned but have not spoken about th
 
 
 
-Thanks to nemo, gappan, hahfyre and aaron for making sure i try and get this right
+Thanks to nemo, gappan, hashfyre and aaron for making sure i try and get this right
+
 
 Also, Happy Birthday Pa
 [1]: https://github.com/kubernetes-incubator/bootkube/blob/master/Documentation/disaster-recovery.md#bootkube-recover-usage
