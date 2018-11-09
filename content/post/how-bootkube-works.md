@@ -8,6 +8,7 @@ date = "2018-11-02"
 [bootkube][3] is a project in the kubernetes incubator, which allows you to self host the control-plane of kubernetes. Simple, isnt it?
 
 
+
 **What is self hosting?**
 
 The idea of self hosting is to run the kubernetes control-plane in kubernetes, leveraging kubernetes objects. That is, to run the api-server, controller-manager & the scheduler as kubernetes objects, which then enables you to manage kubernetes like any other application you run on kubernetes. What does this mean? You manage kubernetes components using your favorite tool `kubectl`. 
@@ -131,3 +132,4 @@ Also, Happy Birthday Pa
 [1]: https://github.com/kubernetes-incubator/bootkube/blob/master/Documentation/disaster-recovery.md#bootkube-recover-usage
 [2]: https://kubernetes.io/docs/tasks/administer-cluster/static-pod/
 [3]: https://github.com/kubernetes-incubator/bootkube
+
