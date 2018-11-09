@@ -5,7 +5,7 @@ date = "2018-11-02"
 
 **What is bootkube?**
 
-bootkube is a project in the kubernetes incubator, primarly developed by coreos, which allows you to self host the control-plane of kubernetes. Simple, isnt it?
+[bootkube][3] is a project in the kubernetes incubator, which allows you to self host the control-plane of kubernetes. Simple, isnt it?
 
 
 **What is self hosting?**
@@ -130,3 +130,4 @@ Thanks to nemo, gappan, hashfyre and aaron for making sure i try and get this ri
 Also, Happy Birthday Pa
 [1]: https://github.com/kubernetes-incubator/bootkube/blob/master/Documentation/disaster-recovery.md#bootkube-recover-usage
 [2]: https://kubernetes.io/docs/tasks/administer-cluster/static-pod/
+[3]: https://github.com/kubernetes-incubator/bootkube
