@@ -80,7 +80,7 @@ Let me first tell you what i dont like about it
 What ended up doing was to use the `terraforming plan` command to generate a plan file, edit it with what changes i need, naming convention, references to other resources etc was all made in the plan file post which you can import the plan file, which is an interesting feature
 
 ```bash
-terraformer plan aws --resources=route53 --filter="Name=id;Value=Z1CAQAFBJAPGTX" --regions=ap-southeast-2
+terraformer plan aws --resources=route53 --filter="Name=id;Value=QWWWQWQWQWQWQ" --regions=ap-southeast-2
 vim generated/aws/terraformer/plan.json
 terraformer import plan generated/aws/terraformer/plan.json
 ```
@@ -116,7 +116,7 @@ terraformer import kubernetes --resources=configmaps --filter="Name=metadata.nam
 
 You get the idea, i think tool is something great to have, there is a lot of would you would need to put into it, but i think getting any infra into terraform is important. 
 
-If you have comments or toughts hit me up
+If you have comments or thoughts hit me up
 
 [1]:ihttps://github.com/dtan4/terraforming
 [2]:https://github.com/GoogleCloudPlatform/terraformer
