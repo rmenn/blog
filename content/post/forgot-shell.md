@@ -35,9 +35,8 @@ Without trying to explain things further here is a snippet you can use
 ```bash
 INSTANCE_ID=`wget -qO- http://instance-data/latest/meta-data/instance-id`
 REGION=`wget -qO- http://instance-data/latest/meta-data/placement/availability-zone | sed 's/.$//'`
-EKS_LABELS=`aws ec2 describe-tags --region $REGION --filter "Name=resource-id,Values=$INSTANCE_ID" --output=json | jq --raw-output '.Tags[] | select(.Key=="ft/label") | .Value'`
-#EKS_LABELS=""
-EKS_TAINTS=`aws ec2 describe-tags --region $REGION --filter "Name=resource-id,Values=$INSTANCE_ID" --output=json | jq --raw-output '.Tags[] | select(.Key=="ft/taint") | .Value'`
+EKS_LABELS=`aws ec2 describe-tags --region $REGION --filter "Name=resource-id,Values=$INSTANCE_ID" --output=json | jq --raw-output '.Tags[] | select(.Key=="aws.eks.node/label") | .Value'`
+EKS_TAINTS=`aws ec2 describe-tags --region $REGION --filter "Name=resource-id,Values=$INSTANCE_ID" --output=json | jq --raw-output '.Tags[] | select(.Key=="aws.eks.node//taint") | .Value'`
 EXTRA_ARGS=""
 if [ ! -z "$EKS_TAINTS" ]; then EXTRA_ARGS=$EXTRA_ARGS" --register-with-taints=$EKS_TAINTS"; fi
 if [ ! -z "$EKS_LABELS" ]; then EXTRA_ARGS=$EXTRA_ARGS" --node-labels=$EKS_LABELS"; fi
