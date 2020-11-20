@@ -16,14 +16,14 @@ Now this isnt new, here the thing was there was a lot of things to get rid off (
 
 I decided to use `terraform import` to pull things i need into the control of terraform. So here is something that you need to know, terraform imports things from the provider to the statefile, thats it, the rest is upto you. By that i mean, you need to have an empty resource like 
 
-```
+```bash
 resource "aws_s3_bucket" "kindle-images" {
 }
 ```
 
 So that you can import the resource from the provider to terraform, which you would do like so
 
-```
+```bash
 terraform import aws_s3_bucket.kindle-images amazon-pottery-images
 ```
 
