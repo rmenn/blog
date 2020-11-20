@@ -28,7 +28,7 @@ Started wrtiting down things in comments.
 
 As i started going thru the aws api calls, so i could know what aws iam role i needed to create for the controller it struct me that i am taking the long way around.
 
-I just ended up adding a few lines of bash inorder to get a very basic functionality that i required to get thru this. I fixed a couple of tags which can be added to terraform and spotinst. `aws.eks.node/labels` & `aws.eks.node/taints`, used the basic describe tags api to get the associated tags and then pass them onto the the eks `bootstrap.sh` script. 
+I just ended up adding a few lines of bash in the userdata script inorder to get a very basic functionality that i required to get thru this. I fixed a couple of tags which can be added to terraform and spotinst. `aws.eks.node/labels` & `aws.eks.node/taints`, used the basic describe tags api to get the associated tags and then pass them onto the the eks `bootstrap.sh` script. 
 
 Without trying to explain things further here is a snippet you can use
 
