@@ -1,6 +1,6 @@
 +++
 date = '2024-11-04T20:39:51+05:30'
-draft = true
+draft = false
 title = 'Wolfi Distroless Images'
 +++
 
