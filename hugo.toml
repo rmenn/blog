@@ -1,6 +1,7 @@
 baseURL = 'https://blog.rmenn.in/'
 languageCode = 'en-us'
 title = 'rmenn - personal blog'
+googleAnalytics = 'G-8HGYB2PCVD'
 #theme = 'hugo-theme-til'
 copyright = 'Rahul Menon' # Used in the footer copyright mention.
 enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
@@ -108,3 +109,6 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
     # Crawler list from https://github.com/ai-robots-txt/ai.robots.txt
     # Default: false
     blockAI = false
+[services]
+  [services.googleAnalytics]
+    ID = 'G-8HGYB2PCVD'
