@@ -1,6 +1,6 @@
 +++
 date = '2025-06-07T17:29:30+05:30'
-draft = true
+draft = false
 title = 'Inplace Pod Resizeing'
 +++
 
