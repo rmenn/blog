@@ -24,6 +24,9 @@ ID  IMAGE  OS  ARCH  STATE  ADDR
 / # uname -a
 Linux e23cf733-affc-4557-ba99-24cbf4ecf39f 6.12.28 #1 SMP Tue May 20 15:19:05 UTC 2025 aarch64 Linux
 / # ^C
+❯ container images ls
+NAME    TAG     DIGEST
+alpine  latest  8a1f59ffb675680d47db6337...
 ```
 
 Host networking also needs a work around at this [time](https://github.com/apple/container/blob/main/docs/technical-overview.md#container-to-host-networking)
